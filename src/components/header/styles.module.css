@@ -1,0 +1,39 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 20px;
+}
+
+.header nav {
+  background: linear-gradient(var(--background), var(--paper));
+  box-shadow: 0 2px 4px rgba(45,35,66,.35),0 7px 13px -3px rgba(45,35,66,.25);
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(-150px);
+  transition: transform 0.5s ease;
+}
+
+.header--visible nav {
+  transform: translateY(0);
+}
+
+.countdown {
+  font-family: monospace;
+  font-weight: 600;
+  color: var(--text-secondary);
+  opacity: 0.5;
+  font-size: 16px;
+}
+.spots {
+  font-family: monospace;
+  font-size: 14px;
+}

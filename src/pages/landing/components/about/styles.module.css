@@ -1,0 +1,48 @@
+
+.about {
+  padding: 200px 20px;
+}
+
+.about h2 {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.about h2::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0) url("../../../../assets/images/dotted-grid.svg") no-repeat scroll center center / 100%;
+  position: absolute;
+  top: 55%;
+  left: 0px;
+  right: 0px;
+  transform: translateY(-50%);
+  margin: auto;
+  z-index: -1;
+}
+
+@supports not (-webkit-background-clip: text) {
+  .highlight {
+    animation: fade 15s linear 0s infinite;
+  }
+}
+
+@supports (-webkit-background-clip: text) {
+  .highlight {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  	background-size: 400% 400%;
+  	animation: gradient 15s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.about p {
+  max-width: 500px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin: 50px auto 0 auto;
+}

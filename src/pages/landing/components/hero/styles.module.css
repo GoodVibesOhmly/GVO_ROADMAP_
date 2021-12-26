@@ -1,0 +1,128 @@
+
+.hero {
+  text-align: center;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(var(--background), var(--paper));
+  padding: 100px 20px;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: min(15vw, 240px);
+  font-weight: 900;
+}
+
+@supports not (-webkit-background-clip: text) {
+  .hero h1 {
+    animation: fade 15s linear 0s infinite;
+  }
+}
+
+@supports (-webkit-background-clip: text) {
+  .hero h1 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  	background-size: 400% 400%;
+  	animation: gradient 15s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes fade {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #3DCE3D;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.hero p {
+  font-size: 20px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.hero__buttons {
+  margin-top: 30px;
+}
+.hero__buttons a {
+  margin: 10px;
+}
+
+.countdown {
+  font-family: monospace;
+  font-size: min(6vw, 120px);
+  color: var(--text-secondary);
+  font-weight: 600;
+  opacity: 0.2;
+  user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+  .countdown {
+    font-size: 8vw;
+  }
+}
+
+.emoji {
+  opacity: 0.5;
+  font-size: 100px;
+  position: absolute;
+  bottom: -50px;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100vw;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .emoji {
+    font-size: 50px;
+    bottom: 60px;
+  }
+}
+
+.emoji div {
+  animation: ticker 60s infinite linear;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

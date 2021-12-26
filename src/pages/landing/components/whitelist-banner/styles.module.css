@@ -1,0 +1,38 @@
+
+.wrapper {
+  padding: 0 20px;
+  position: relative;
+}
+
+.cta {
+  color: var(--text-light);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: -50px auto 0 auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 10px 30px 0 rgba(45, 35, 66, 0.4),0 4px 18px 0 rgba(45, 35, 66, 0.3);
+}
+
+.cta p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 700px) {
+  .cta {
+    flex-direction: column;
+    height: 170px;
+    text-align: center;
+    margin-top: -85px;
+    padding: 20px;
+    max-width: 350px;
+    align-items: stretch;
+  }
+}
