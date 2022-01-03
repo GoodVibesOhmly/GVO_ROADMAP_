@@ -18,13 +18,13 @@ class Header extends React.Component {
       <header className={styles.header} id="navbar">
         <nav>
           <div>
-            <p className={styles.spots}>500/500 claimed</p>
+            <p className={styles.spots}>LBE is now live</p>
             {/*
             <p className={styles.countdown}><Countdown date={1640242800000} /></p>
             */}
           </div>
 
-          <a className="button" href="https://discord.gg/indexdao">Discord</a>
+          <a className="button" href="https://launch.indexdao.finance">LBE</a>
         </nav>
       </header>
     );

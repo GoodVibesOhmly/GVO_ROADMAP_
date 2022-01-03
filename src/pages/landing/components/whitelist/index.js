@@ -14,11 +14,11 @@ function Whitelist() {
 
           <a
             className="button button--primary"
-            href="https://discord.gg/indexdao"
+            href="https://launch.indexdao.finance"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join Discord
+            Launch LBE
           </a>
         </div>
 

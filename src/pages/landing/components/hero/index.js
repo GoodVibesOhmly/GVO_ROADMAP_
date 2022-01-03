@@ -4,11 +4,9 @@ import styles from "./styles.module.css";
 function Hero() {
   return (
     <section className={styles.hero}>
-      {/*
       <div className={styles.countdown}>
-        <Countdown date={1640242800000} />
+        LBE IS NOW LIVE
       </div>
-      */}
 
       <div>
         <h1>INDEX DAO</h1>
@@ -16,7 +14,7 @@ function Hero() {
 
         <div className={styles.hero__buttons}>
           <a className="button" href="https://discord.gg/indexdao" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a className="button button--disabled" href="/">Launch app</a>
+          <a className="button" href="https://launch.indexdao.finance/">Launch LBE</a>
         </div>
       </div>
 
