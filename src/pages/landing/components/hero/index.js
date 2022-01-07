@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.countdown}>
-        LBE IS NOW LIVE
+        LBE HAS CONCLUDED
       </div>
 
       <div>

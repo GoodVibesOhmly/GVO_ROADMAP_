@@ -18,7 +18,7 @@ class Header extends React.Component {
       <header className={styles.header} id="navbar">
         <nav>
           <div>
-            <p className={styles.spots}>LBE is now live</p>
+            <p className={styles.spots}>LBE has concluded</p>
             {/*
             <p className={styles.countdown}><Countdown date={1640242800000} /></p>
             */}

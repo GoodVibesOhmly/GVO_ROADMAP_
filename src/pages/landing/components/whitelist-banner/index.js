@@ -4,7 +4,7 @@ function WhitelistBanner() {
   return (
     <section className={styles.wrapper}>
       <div className={styles.cta}>
-        <p>LBE is now live</p>
+        <p>LBE has concluded</p>
         <a className="button" href="https://launch.indexdao.finance">Launch LBE</a>
       </div>
     </section>
