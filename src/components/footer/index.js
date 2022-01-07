@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
-import GithubIcon from "../../assets/icons/github.svg";
 import DiscordIcon from "../../assets/icons/discord.svg";
+import GithubIcon from "../../assets/icons/github.svg";
+import GitbookIcon from "../../assets/icons/gitbook.svg";
 import TwitterIcon from "../../assets/icons/twitter.svg";
 
 function Footer() {
@@ -19,6 +20,10 @@ function Footer() {
 
         <a href="https://discord.gg/indexdao" target="_blank" rel="noopener noreferrer">
           <img alt="Discord" src={DiscordIcon} />
+        </a>
+
+        <a href="https://docs.indexdao.finance" target="_blank" rel="noopener noreferrer">
+          <img alt="Documentation" src={GitbookIcon} />
         </a>
       </div>
     </footer>
