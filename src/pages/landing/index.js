@@ -6,7 +6,6 @@ import {
   Hero,
   Roadmap,
   Team,
-  Whitelist,
   WhitelistBanner,
 } from "./components/";
 import {
@@ -23,7 +22,6 @@ class Landing extends React.Component {
         <WhitelistBanner />
         <About />
         <Bonding />
-        <Whitelist />
         <Roadmap />
         <Team />
         <Footer />

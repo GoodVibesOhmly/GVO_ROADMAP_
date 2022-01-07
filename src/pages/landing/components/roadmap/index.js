@@ -10,18 +10,18 @@ function Roadmap() {
     },
     {
       title: "Early January 2021 | LBE",
-      content: "Liquidity Bootstrapping Event for Index DAO is underway with whitelists currently open. The event will only last for 1 week or until spots fill up so claim your spot fast.",
+      content: "Liquidity Bootstrapping Event for Index DAO has concluded! Join our Discord for the latest announcements regarding exact launch date and time!",
       passed: false,
       current: true,
     },
     {
-      title: "Early January 2021 | Launch",
+      title: "Mid January 2021 | Launch",
       content: "Index DAO will launch on Trader Joe using MIM raised during the LBE. gOHM, MEMO, and a third DAO decided by the community will be the first bonds available for minting (📈,📈).",
       passed: false,
       current: false,
     },
     {
-      title: "Mid January 2021 | Bonds",
+      title: "Late January 2021 | Bonds",
       content: "Every week new DAO bonds will be made available for minting on a rotating basis. Vote for your DAO in the Discord and on Twitter.",
       passed: false,
       current: false,
