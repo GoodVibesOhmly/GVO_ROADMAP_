@@ -5,7 +5,7 @@ function WhitelistBanner() {
     <section className={styles.wrapper}>
       <div className={styles.cta}>
         <p>LBE has concluded</p>
-        <a className="button" href="https://launch.indexdao.finance">Launch LBE</a>
+        <a className="button" href="https://launch.indexdao.finance">Claim aINDEX</a>
       </div>
     </section>
   );

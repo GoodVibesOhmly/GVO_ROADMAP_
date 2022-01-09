@@ -18,6 +18,10 @@
     "left-4 track right-4"
     "left-5 track right-5"
     "left-6 track right-6"
+    "left-7 track right-7"
+    "left-8 track right-8"
+    "left-9 track right-9"
+    "left-10 track right-10"
   ;
   grid-template-columns: 1fr 20px 1fr;
   grid-auto-rows: 1fr;
@@ -33,6 +37,10 @@
       "track item-4"
       "track item-5"
       "track item-6"
+      "track item-7"
+      "track item-8"
+      "track item-9"
+      "track item-10"
     ;
     grid-template-columns: 20px 1fr;
   }
@@ -47,7 +55,7 @@
 }
 
 .progress {
-  height: calc(14.286% * 1 + 40px);
+  height: calc(100% / 11 * 2 + 40px);
   border-radius: 25px;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -68,6 +76,7 @@
 .item--7 { grid-area: right-7 }
 .item--8 { grid-area: left-8 }
 .item--9 { grid-area: right-9 }
+.item--10 { grid-area: left-10 }
 
 .item:nth-child(2n) .dot {
   right: -25px;
@@ -87,6 +96,7 @@
   .item--7 { grid-area: item-7 }
   .item--8 { grid-area: item-8 }
   .item--9 { grid-area: item-9 }
+  .item--10 { grid-area: item-10 }
 
   .item:nth-child(2n) .dot,
   .item:nth-child(2n + 1) .dot {

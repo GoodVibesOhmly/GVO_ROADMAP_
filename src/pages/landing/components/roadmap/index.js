@@ -9,26 +9,44 @@ function Roadmap() {
       current: false,
     },
     {
-      title: "Early January 2021 | LBE",
-      content: "Liquidity Bootstrapping Event for Index DAO has concluded! Join our Discord for the latest announcements regarding exact launch date and time!",
+      title: "5th January 2021 | LBE",
+      content: "Liquidity Bootstrapping Event for Index DAO has concluded and 300,000 MIM was raised!",
+      passed: true,
+      current: false,
+    },
+    {
+      title: "7th January 2021 | Pre-Launch Marketing",
+      content: "Pre-launch marketing is currently underway to grow the Index DAO community and spread mass awareness.",
       passed: false,
       current: true,
     },
     {
-      title: "Mid January 2021 | Launch",
-      content: "Index DAO will launch on Trader Joe using MIM raised during the LBE. gOHM, MEMO, and a third DAO decided by the community will be the first bonds available for minting (📈,📈).",
+      title: "15th January 2021 | Launch",
+      content: "Index DAO will launch on Trader Joe using MIM raised during the LBE. gOHM and MEMO will be the first bonds available for minting (📈,📈).",
       passed: false,
       current: false,
     },
     {
-      title: "Late January 2021 | Bonds",
-      content: "Every week new DAO bonds will be made available for minting on a rotating basis. Vote for your DAO in the Discord and on Twitter.",
+      title: "Late January 2021 | DAO Bonds",
+      content: "Every week new DAO bonds will be made available for minting on a rotating basis. Vote for your favorite DAO via Snapshot.",
+      passed: false,
+      current: false,
+    },
+    {
+      title: "Q1 2022 | CG + CMC Listings",
+      content: "The INDEX token will be listed on CoinGecko and CoinMarketCap where you can track its price and market capitalization.",
       passed: false,
       current: false,
     },
     {
       title: "Q1 2022 | Audit + Marketing + Airdrops",
       content: "To support the long term growth of Index DAO marketing will be pushed out in early Q1. INDEX will also be airdroped to long term holders and supporters of the project all throughout Q1 to reward early investors.",
+      passed: false,
+      current: false,
+    },
+    {
+      title: "Q1 2021 | Diamond Hand Rewards",
+      content: "Additional rewards for INDEX stakers from day 1 will be revealed in early 2021.",
       passed: false,
       current: false,
     },
@@ -44,10 +62,16 @@ function Roadmap() {
       passed: false,
       current: false,
     },
+    {
+      title: "Beyond | Continued Development",
+      content: "Index DAO will continue to expand its treasury and potentially split into multiple focused indices to give investors more choice of investment strategies.",
+      passed: false,
+      current: false,
+    },
   ];
 
   return (
-    <section className={`${styles.root} container`}>
+    <section className={`${styles.root} container`} id="roadmap">
       <h2 className="h2">Roadmap</h2>
 
       <div className={styles.roadmap}>

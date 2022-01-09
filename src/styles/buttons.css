@@ -46,3 +46,7 @@
   opacity: 0.5;
   pointer-events: none;
 }
+
+.button--square {
+  padding: 10px;
+}

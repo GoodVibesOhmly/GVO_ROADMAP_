@@ -19,8 +19,11 @@
 	}
 }
 
-.inner {
+.footer {
   background-color: var(--paper);
+}
+
+.inner {
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -36,4 +39,14 @@
 
 .inner a:hover {
   opacity: 1;
+}
+
+.avax {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.avax a {
+  width: 140px;
 }

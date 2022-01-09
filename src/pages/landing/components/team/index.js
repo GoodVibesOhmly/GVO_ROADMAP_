@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 function Team() {
   return (
-    <section className={styles.root}>
+    <section className={styles.root} id="team">
       <h2 className="h2">Board of Directors</h2>
       <p className={styles.subtitle}>Unlike other teams, ours is comprised of actual Solidity developers and marketers with past experience launching, marketing, managing, and scaling DeFi projects.</p>
 
@@ -26,6 +26,13 @@ function Team() {
           <p className={styles.name}>Motif</p>
           <p className={styles.title}>Community Manager</p>
           <p className={styles.bio}>3+ years experience running meetspace events, moderator and contributor across multiple DAOs, crypto investor since 2017</p>
+        </div>
+
+        <div className={styles.member}>
+          <p className={styles.emoji}>🏯</p>
+          <p className={styles.name}>Pagoda</p>
+          <p className={styles.title}>Marketing Expert</p>
+          <p className={styles.bio}>5+ years experience marketing, serial entrepreneur, crypto investor since 2018</p>
         </div>
       </div>
     </section>

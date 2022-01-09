@@ -1,11 +1,12 @@
 import styles from "./styles.module.css";
-// import Countdown from 'react-countdown';
+import Countdown from 'react-countdown';
 
 function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.countdown}>
-        LBE HAS CONCLUDED
+        <p>LAUNCH COUNTDOWN</p>
+        <Countdown date={1642284000000} />
       </div>
 
       <div>
@@ -14,7 +15,7 @@ function Hero() {
 
         <div className={styles.hero__buttons}>
           <a className="button" href="https://discord.gg/indexdao" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a className="button" href="https://launch.indexdao.finance/">Launch LBE</a>
+          <button className="button" disabled>App (<Countdown date={1642284000000} />)</button>
         </div>
       </div>
 
