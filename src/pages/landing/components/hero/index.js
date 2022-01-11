@@ -6,7 +6,7 @@ function Hero() {
     <section className={styles.hero}>
       <div className={styles.countdown}>
         <p>LAUNCH COUNTDOWN</p>
-        <Countdown date={1642284000000} />
+        <Countdown date={1642280400000} />
       </div>
 
       <div>
@@ -15,7 +15,7 @@ function Hero() {
 
         <div className={styles.hero__buttons}>
           <a className="button" href="https://discord.gg/indexdao" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <button className="button" disabled>App (<Countdown date={1642284000000} />)</button>
+          <button className="button" disabled>App (<Countdown date={1642280400000} />)</button>
         </div>
       </div>
 
