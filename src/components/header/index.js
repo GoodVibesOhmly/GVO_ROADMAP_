@@ -65,7 +65,7 @@ class Header extends React.Component {
               </a>
             </div>
 
-            <button className="button" disabled>App (<Countdown date={1642280400000} />)</button>
+            <button className="button" disabled>App (<Countdown date={1642366800000} />)</button>
           </div>
         </nav>
 
@@ -80,7 +80,7 @@ class Header extends React.Component {
 
               <li>
                 <a href="/#" className={styles.disabled}>
-                  App (<Countdown date={1642280400000} />)
+                  App (<Countdown date={1642366800000} />)
                 </a>
               </li>
 
