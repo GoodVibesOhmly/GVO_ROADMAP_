@@ -21,7 +21,7 @@ function Roadmap() {
       current: true,
     },
     {
-      title: "15th January 2022 | Launch",
+      title: "16th January 2022 | Launch",
       content: "Index DAO will launch on Trader Joe using MIM raised during the LBE. gOHM and MEMO will be the first bonds available for minting (📈,📈).",
       passed: false,
       current: false,
